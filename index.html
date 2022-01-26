@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ViktorEvil</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="/">Viktor<span>Evil</span> <img class="memoji" src="/images/memoji.png" alt="memoji"></a>
+
+            <img id="mobile-cta" class="mobile-menu" src="/images/menu.svg"  alt="Open navigation">
+
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="/images/exit.svg" alt="Close navigation">
+
+                <ul class="primary-nav">
+                    <li class="current"><a href="/">Home</a></li>
+                    <li><a href="/apps/apps.html">Apps</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </div>
+
+    <section class="hero">
+        <div class="container">
+            <div class="left-col">
+                <p class="subhead">When..<img src="images/when-icon.svg" class="app-icon-img" alt="App Icon"></p>
+                
+                <h1>Keep track of all your events..</h1>
+                <h2>know exactly when and where the things that matter to you took place..</h2>
+
+                <div class="hero-app-store">
+                    <img src="images/App-Store-Badge-Blk.svg" class="app-store-img" alt="App Store">
+                </div>
+
+            </div>
+            <img src="images/iphone13.svg" class="iphone-img-1" alt="iPhone 13">
+        </div>
+    </section>
+
+    <section class="features-section">
+        <div class="container">        
+            <div class="left-list">
+                <ul class="features-list">
+                    <li>Exact time the event took place.</li>
+                    <li>Location of event.</li>
+                    <li>Add notes.</li>
+                    <li>Elapsed time.</li>
+                    <li>100% made with Swift.</li>
+                    <li>iOS exclusive.</li>
+                </ul>
+            </div>
+            <img src="images/iphone13-2.svg" class="iphone-img-2 " alt="iPhone 13">
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-left">
+                <a class="logo" href="/">Viktor<span>Evil</span><img class="memoji" src="/images/memoji.png" alt="memoji"></a>
+            </div>
+            <div class="contact-right">
+                <ul>
+                    <li><a href="mailto:viktorevil@icloud.com.com"></a><img class="email-img" src="/images/mail.svg" alt="email">Email</li>
+                    <li><a href="https://github.com/ViktorEvil"></a><img class="github-img" src="/images/github.svg" alt="github">Github</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <script>
+        const mobileBtn = document.getElementById('mobile-cta')
+                nav = document.querySelector('nav');
+                mobileBtnExit = document.getElementById('mobile-exit');
+        
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+    </script>
+
+</body>
+</html>

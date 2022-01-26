@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&family=Varela+Round&display=swap");
+:root {
+  --primary-color: #007af3;
+}
+
+body {
+  background: #f2f2f2;
+  margin: 0;
+  font-family: 'Nunito';
+}
+
+.navbar {
+  background: white;
+  padding: 0.6em;
+}
+
+.navbar .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 1.2em;
+  padding-bottom: 0.2em;
+}
+
+.navbar .logo span {
+  color: var(--primary-color);
+}
+
+.navbar .memoji {
+  width: 30px;
+  position: relative;
+  top: 5px;
+}
+
+.navbar nav {
+  display: none;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .mobile-menu {
+  cursor: pointer;
+  padding-right: 1em;
+}
+
+a {
+  color: #444444;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: -2em;
+}
+
+.hero {
+  text-align: center;
+  padding: 1em 1em 5em 1em;
+}
+
+.left-col .subhead {
+  font-weight: 900;
+  font-size: 3em;
+  color: #208EF3;
+  position: relative;
+}
+
+.left-col .app-icon-img {
+  width: 70px;
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+  position: relative;
+  top: 8px;
+  left: 6px;
+  -webkit-box-shadow: 4px 4px 8px #ccc;
+  box-shadow: 4px 4px 8px #ccc;
+  border-radius: 12px;
+}
+
+.left-col h1 {
+  font-size: 2.5em;
+  line-height: 1.3em;
+  margin-top: .2em;
+}
+
+.left-col h2 {
+  font-size: 1.5em;
+  line-height: 1.3em;
+  margin-top: .2em;
+  margin-bottom: 2em;
+}
+
+.left-col .app-store-img {
+  width: 160px;
+}
+
+.iphone-img-1 {
+  width: 300px;
+  margin-top: 2em;
+}
+
+.apps {
+  text-align: center;
+  padding: 1em 1em 5em 1em;
+}
+
+.apps .subhead {
+  font-weight: 900;
+  font-size: 3em;
+  color: #208EF3;
+  position: relative;
+}
+
+.apps .app-icon-img {
+  width: 70px;
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+  position: relative;
+  top: 8px;
+  left: 6px;
+  -webkit-box-shadow: 4px 4px 8px #ccc;
+  box-shadow: 4px 4px 8px #ccc;
+  border-radius: 12px;
+}
+
+.apps h1 {
+  font-size: 2.5em;
+  line-height: 1.3em;
+  margin-top: .2em;
+}
+
+.apps h2 {
+  font-size: 1.5em;
+  line-height: 1.3em;
+  margin-top: .2em;
+  margin-bottom: 2em;
+}
+
+.apps .app-store-img {
+  width: 160px;
+}
+
+.features-section {
+  background: #20272e;
+  color: white;
+  text-align: center;
+  padding: 3em 1em 5em 1em;
+}
+
+.features-section ul.features-list {
+  margin: 0 auto;
+  text-align: left;
+  display: table;
+}
+
+.features-section ul.features-list li {
+  font-size: 1.1em;
+  margin-bottom: 1em;
+  position: relative;
+}
+
+.features-section ul.features-list li:before {
+  content: '';
+  left: -2em;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url("../images/bullet.svg");
+  background-size: contain;
+  margin-right: 0.5em;
+}
+
+.features-section .iphone-img-2 {
+  width: 300px;
+  margin-top: 2em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+nav.menu-btn {
+  display: block;
+}
+
+nav {
+  position: fixed;
+  z-index: 999;
+  width: 66%;
+  right: 0;
+  top: 0;
+  background: #20272e;
+  height: 100vh;
+  padding: 1em;
+}
+
+nav ul.primary-nav {
+  margin-top: 5em;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: .5em;
+  font-size: 1.2em;
+  text-align: right;
+}
+
+nav li a:hover {
+  font-weight: bold;
+}
+
+.mobile-menu-exit {
+  float: right;
+  margin: .5em;
+  cursor: pointer;
+}
+
+.contact-section {
+  padding: 1em 2em 1em 2em;
+}
+
+.contact-section .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 1.2em;
+  padding-bottom: 0.2em;
+}
+
+.contact-section .logo span {
+  color: var(--primary-color);
+}
+
+.contact-section .contact-right .ul {
+  padding: 0em;
+}
+
+.contact-section .memoji {
+  width: 30px;
+  position: relative;
+  top: 5px;
+}
+
+.contact-section .github-img {
+  cursor: pointer;
+  width: 20px;
+  padding-right: 0.5em;
+}
+
+.contact-section .email-img {
+  cursor: pointer;
+  width: 20px;
+  padding-right: 0.5em;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .mobile-menu, .mobile-menu-exit {
+    display: none;
+  }
+  .navbar .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 180px auto;
+        grid-template-columns: 180px auto;
+  }
+  .navbar nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 90%;
+    padding: 0;
+  }
+  .navbar nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navbar nav a {
+    color: black;
+    font-size: 1em;
+    padding: 0.6em 1em;
+  }
+  .navbar nav ul.primary-nav {
+    margin: 0;
+  }
+  .navbar nav li.current a {
+    font-weight: bold;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .container {
+    width: 1080px;
+    margin: 0 auto;
+  }
+  .hero .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: left;
+  }
+  .hero .container .left-col {
+    margin: 3em 3em 0 5em;
+  }
+  .hero .container .left-col h1 {
+    font-size: 3em;
+    width: 90%;
+  }
+  .iphone-img-1 {
+    width: 30;
+    margin-right: 8em;
+  }
+  .iphone-img-2 {
+    width: 30;
+    margin-right: 8em;
+  }
+  .hero-app-store {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .left-list {
+    margin: 3em 3em 0 3em;
+  }
+  .features-section .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: left;
+  }
+  ul.features-list li {
+    font-size: 1.5em;
+  }
+  ul.features-list li:before {
+    width: 30px;
+    height: 30px;
+  }
+  .contact-section {
+    position: relative;
+  }
+  .contact-section .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .contact-right {
+    position: absolute;
+    right: 0;
+    top: 1em;
+    width: 45%;
+    height: 100%;
+    padding-bottom: 1em;
+  }
+}
