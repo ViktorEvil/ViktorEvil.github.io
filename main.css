@@ -238,6 +238,7 @@ nav li a:hover {
 }
 
 .contact-section .contact-right .ul {
+  text-decoration: none;
   padding: 0em;
 }
 
@@ -268,15 +269,15 @@ nav li a:hover {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 180px auto;
-        grid-template-columns: 180px auto;
+    grid-template-columns: 180px auto;
   }
   .navbar nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     background: none;
     position: unset;
     height: auto;
@@ -311,8 +312,8 @@ nav li a:hover {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     text-align: left;
   }
   .hero .container .left-col {
@@ -343,8 +344,8 @@ nav li a:hover {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     text-align: left;
   }
   ul.features-list li {
@@ -356,6 +357,7 @@ nav li a:hover {
   }
   .contact-section {
     position: relative;
+    text-decoration: none;
   }
   .contact-section .container {
     display: -webkit-box;
