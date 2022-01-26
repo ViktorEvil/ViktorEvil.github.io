@@ -357,7 +357,6 @@ nav li a:hover {
   }
   .contact-section {
     position: relative;
-    text-decoration: none;
   }
   .contact-section .container {
     display: -webkit-box;
@@ -371,5 +370,9 @@ nav li a:hover {
     width: 45%;
     height: 100%;
     padding-bottom: 1em;
+  }
+
+  ul.contact-list li {
+    text-decoration: none;
   }
 }
